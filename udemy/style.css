@@ -1,0 +1,63 @@
+.logo{
+    width: 85px;
+    height: 55px; 
+} 
+.divImg{
+    position: relative;
+}
+.text-block {
+    position: absolute;
+    bottom: 150px;
+    left: 65px;
+    background-color: white;
+    color:black;
+    width: 449px;
+  }
+.course-hover li:hover{
+    color: rgb(126, 12, 31);
+}
+.card-title-Font{
+    font-size: 15px;
+}
+.teacherName-Font{
+    font-size: 12px;
+}
+.paragraph{
+    height: 50%;
+    width: 57%;
+}
+.orangecolor{
+    color: rgb(228, 161, 35);
+    font-size: 12px;
+    padding-bottom: 2px;
+}
+.fourColor{
+    color: rgb(168, 112, 7);
+    font-weight: 700;
+}
+.spanFw{
+    font-size: 12px;
+    font-weight: 400;
+}
+.rupiesIcon{
+    font-size: 13px;
+}
+.bestSeller{
+    font-size: 13px;
+    height: 23px;
+    width: 73px;
+    background-color:rgb(227, 227, 111) ;
+}
+.card-border{
+   border: none; 
+}
+.pw-Rounded{
+    border: 1px solid;
+    width: 9%;
+    border-radius: 50%;
+    
+    
+}
+.Icon-Cover{
+    color: #5624d0;;
+}
