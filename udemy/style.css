@@ -5,9 +5,9 @@
     width: 85px;
     height: 55px; 
 } 
-.divImg{
+/* .divImg{
     position: relative;
-}
+} */
 .text-block {
     position: absolute;
     bottom: 150px;
@@ -76,8 +76,10 @@
     height: 43%;
     border-radius: 80px;
 }
-.carousal-box-p{
-
+.carousal-Next-Button{
+    border-radius: 23px;
+    height: 46px;
+    width: 46px;
 }
 .udemy-Business-Logo{
     height: 50%;
