@@ -1,3 +1,6 @@
+.search-Bar{
+    /* width: 50%; */
+}
 .logo{
     width: 85px;
     height: 55px; 
@@ -53,11 +56,44 @@
 }
 .pw-Rounded{
     border: 1px solid;
-    width: 9%;
+    width: 10%;
     border-radius: 50%;
-    
-    
 }
 .Icon-Cover{
-    color: #5624d0;;
+    color: #5624d0;
+}
+.carousal-box-border{
+    width: 60%;
+    height: 65%;
+}
+.carasoul-height{
+    width: 76%;
+    height: 50%;
+}
+.author-carasoul{
+    
+    width: 45%;
+    height: 43%;
+    border-radius: 80px;
+}
+.carousal-box-p{
+
+}
+.udemy-Business-Logo{
+    height: 50%;
+    width: 50%;
+}
+.footer-Logo-Udemy{
+    width: 13%;
+    height: 100%;
+}
+.footer-P-Font{
+    font-size: 13px;
+}
+.udemyB-Skill{
+    width: 30%;
+    height: 4%;
+}
+.footer-OnHover:hover{
+    text-decoration: underline; 
 }
