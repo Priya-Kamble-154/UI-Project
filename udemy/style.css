@@ -5,9 +5,9 @@
     width: 85px;
     height: 55px; 
 } 
-/* .divImg{
+.divImg{
     position: relative;
-} */
+}
 .text-block {
     position: absolute;
     bottom: 150px;
@@ -93,8 +93,8 @@
     font-size: 13px;
 }
 .udemyB-Skill{
-    width: 30%;
-    height: 4%;
+    width: 192px;
+    height: 32px;
 }
 .footer-OnHover:hover{
     text-decoration: underline; 
