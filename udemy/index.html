@@ -17,20 +17,80 @@
   <nav class="navbar navbar-expand-lg bg-body-light">
     <div class="container-fluid">
 
-      <a class="navbar-brand ps-3" href="#"><img src="images/logo-udemy.svg" alt="Logo" class="logo"></a>
-      <button class="navbar-toggler m-0 p-0" type="button" data-bs-toggle="collapse"
+      <a class="navbar-brand ps-3 me-0 pt-0 pb-2" href="#"><img src="images/logo-udemy.svg" alt="Logo" class="logo"></a>
+      <!-- <button class="navbar-toggler m-0 p-0" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <ul class="navbar-nav  mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Categories</a>
-          </li>
-          <li class="nav-item">
-            <div class="pe-5 ms-3">
-              <form class="d-flex form-control me-2 border-secondary rounded-5 p-2 bg-light search-Bar" role="search">
+      </button> -->
+      <!-- <ul class="pt-1 ps-3"><li class="nav-item list-unstyled text-decoration-none">
+        <a class="nav-link active" aria-current="page" href="#">Categories</a>
+      </li></ul> -->
+
+      <div class="dropdown">
+        <ul class="pt-1 ps-3">
+          <li class="dropbtn list-unstyled nav-item text-decoration-none"><a class="nav-link active" aria-current="page"
+              href="#">Categories</a></li>
+        </ul>
+        <div class="dropdown-content">
+          <div class="droupdown">
+            <div class="px-2">
+              <div class="d-flex justify-content-between"><a href="#" class="ms-0 ps-0">Development </a><i
+                  class="fa fa-chevron-right ps-5 align-self-center "></i></div>
+            </div>
+            <div class="px-2">
+              <div class="d-flex justify-content-between"><a href="#" class="ms-0 ps-0">Business </a><i
+                  class="fa fa-chevron-right ps-5 align-self-center "></i></div>
+            </div>
+            <div class="px-2">
+              <div class="d-flex justify-content-between"><a href="#" class="ms-0 ps-0">Finance & Accounting </a><i
+                  class="fa fa-chevron-right ps-5 align-self-center "></i></div>
+            </div>
+            <div class="px-2">
+              <div class="d-flex justify-content-between"><a href="#" class="ms-0 ps-0">It & Software </a><i
+                  class="fa fa-chevron-right ps-5 align-self-center "></i></div>
+            </div>
+            <div class="px-2">
+              <div class="d-flex justify-content-between"><a href="#" class="ms-0 ps-0">Office Productivity </a><i
+                  class="fa fa-chevron-right ps-5 align-self-center "></i></div>
+            </div>
+            <div class="px-2">
+              <div class="d-flex justify-content-between"><a href="#" class="ms-0 ps-0">Personal developement </a><i
+                  class="fa fa-chevron-right ps-5 align-self-center "></i></div>
+            </div>
+            <div class="px-2">
+              <div class="d-flex justify-content-between"><a href="#" class="ms-0 ps-0">Design </a><i
+                  class="fa fa-chevron-right ps-5 align-self-center "></i></div>
+            </div>
+            <div class="px-2">
+              <div class="d-flex justify-content-between"><a href="#" class="ms-0 ps-0">Marketing </a><i
+                  class="fa fa-chevron-right ps-5 align-self-center "></i></div>
+            </div>
+            <div class="px-2">
+              <div class="d-flex justify-content-between"><a href="#" class="ms-0 ps-0">Lifestyle </a><i
+                  class="fa fa-chevron-right ps-5 align-self-center "></i></div>
+            </div>
+            <div class="px-2">
+              <div class="d-flex justify-content-between"><a href="#" class="ms-0 ps-0">Photography & Video </a><i
+                  class="fa fa-chevron-right ps-5 align-self-center "></i></div>
+            </div>
+            <div class="px-2">
+              <div class="d-flex justify-content-between"><a href="#" class="ms-0 ps-0">Health & Fitness </a><i
+                  class="fa fa-chevron-right ps-5 align-self-center "></i></div>
+            </div>
+            <div class="px-2">
+              <div class="d-flex justify-content-between"><a href="#" class="ms-0 ps-0">Teaching & Academics </a><i
+                  class="fa fa-chevron-right ps-5 align-self-center "></i></div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+        <ul class="ps-0 pt-3">
+          <li class="nav-item list-unstyled">
+            <div class="pe-5 ms-3 search-Bar">
+              <form class="d-flex form-control me-2 border-secondary rounded-5 p-2 bg-light" role="search">
                 <i class="fa-sharp fa fa-magnifying-glass align-self-center pe-3 ps-1" style="color: #727274;"></i>
                 <input class="border border-0 pe-5 me-5 bg-light" type="search" placeholder="Search for anything"
                   aria-label="Search">
@@ -38,37 +98,41 @@
               </form>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Udemy Business</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link">Teach on Udemy</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href=""><i class="fa-sharp fa fa-cart-shopping pt-3 ps-3"
-                style="color: #0d0d0d;"></i></i></a>
-          </li>
-          <li class="nav-item">
-            <button class="py-2 px-3 ms-3 bg-white">Login</button>
-          </li>
-          <li class="nav-item">
-            <button class="py-2 px-3 bg-black text-white ms-2"><span class="fw-1">Sign Up</span></button>
-          </li>
-          <li class="nav-item">
-            <button class="ms-2 px-3 py-2 bg-white"><i class="fa-sharp fa fa-globe"></i></button>
-          </li>
-
         </ul>
-      </div>
-      <!-- </div> -->
-       
-    </div>
-      
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+          <ul class="navbar-nav  mb-2 mb-lg-0">
+
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Udemy Business</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Teach on Udemy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=""><i class="fa fa-cart-shopping pt-1 ps-3" style="color: black;"></i></i></a>
+            </li>
+            <li class="nav-item">
+              <button class="py-2 px-3 ms-3 bg-white">Login</button>
+            </li>
+            <li class="nav-item">
+              <button class="py-2 px-3 bg-black text-white ms-2"><span class="fw-1">Sign Up</span></button>
+            </li>
+            <li class="nav-item">
+              <div class="justify-content-end"><button class="ms-2 px-3 py-2 bg-white"><i
+                    class="fa-sharp fa fa-globe"></i></button></div>
+            </li>
+
+
+          </ul>
+        </div>
+      
+      <!-- </li>
+      </ul> -->
   </nav>
   <main>
-
-    <!--  -->
-
     <div class="divImg px-5 mx-4">
       <img src="images/187c1cf3-014b-498c-989a-ea00c7a9ee6b.png" alt="" style="width:100%;">
       <div class="text-block p-4">
@@ -76,18 +140,6 @@
           <p>Courses start at ₹389 through May 24. Opportunities like this only come once in a season.</p>
       </div>
     </div>
-    <!-- <div class="">
-        <div class="px-5 mx-5">
-          <img src="images/187c1cf3-014b-498c-989a-ea00c7a9ee6b.png" alt="" style="width:100%;" class="divImg">
-          <div class="text-block p-4">
-            <div class="">
-              <h1>A sale as big as your dreams</h4>
-                <p>Courses start at ₹389 through May 24. Opportunities like this only come once in a season.</p>
-            </div>
-          </div>
-        </div>
-      </div> -->
-    <!-- second section -->
     <section class="px-5 mx-5">
       <div class="pt-5">
         <h1>A broad selection of courses</h1>
@@ -234,10 +286,6 @@
         </div>
       </div>
     </section>
-        
-
-    <!--  -->
-
     <div class="bg-light mt-5 px-5 pt-5 pb-2">
       <h4 class="ms-5 pt-2"><strong>How learners like you are achieving their goals</strong></h4>
       <section class="pt-4 pb-5">
@@ -684,35 +732,6 @@
 
     <section class="pt-5">
       <div class="container">
-        <!--  -->
-        <!-- <div class="row pt-5">
-          <div class="col-6 border border-danger text-center p-0 m-0">
-
-            <img src="images/udemy-business-LOGO.svg" alt="" class="udemyB-Skill me-4 pe-1">
-
-            <h2 class="ps-4 ms-5 pt-3"><strong class="ms-5">Up skill your team with</strong></h2>
-            <h2 class="ps-3"><strong>Udemy Business</strong></h2>
-            <div class="">
-              <ul class="">
-                <li class="">Unlimited access to 22,000+ top Udemy<br><span class="">courses, anytime, anywhere</span>
-                </li>
-                <li>International course collection in 14s<br>languages</li>
-                <li>Top certifications in tech and business</li>
-              </ul>
-              <div class="row">
-                <div class="col-6">
-                  <button type="button" class="btn btn-dark rounded-0 py-2 me-1"><strong>Get Udemy
-                      Business</strong></button>
-                  <button type="button" class="btn btn-outline-dark rounded-0 p-2"><strong>Learn more</strong></button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 border border-success p-0 m-0">
-            <img src="images/Udemy-Business.jpg" alt="" class="h-50 W-50">
-          </div>
-        </div> -->
-        <!--  -->
         <div class="row px-5 mx-5">
           <div class="col-6 ps-5">
             <div><img src="images/udemy-business-LOGO.svg" alt="" class="udemyB-Skill"></div>
@@ -724,10 +743,10 @@
                 <li class="fs-5 ps-2">Top certifications in tech and business</li>
               </ul>
             </div>
-            <div class="ps-2 pb-3">
+            <div class="ps-2 pb-3 pt-2">
               <button type="button" class="btn btn-dark rounded-0 py-2 me-1"><strong>Get Udemy
-                Business</strong></button>
-            <button type="button" class="btn btn-outline-dark rounded-0 p-2"><strong>Learn more</strong></button>
+                  Business</strong></button>
+              <button type="button" class="btn btn-outline-dark rounded-0 p-2"><strong>Learn more</strong></button>
             </div>
           </div>
           <div class="col-6"><img src="images/Udemy-Business.jpg" alt="" class="h-100 w-75 ps-5 ms-5"></div>
