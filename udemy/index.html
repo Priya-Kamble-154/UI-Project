@@ -16,17 +16,7 @@
 
   <nav class="navbar navbar-expand-lg bg-body-light">
     <div class="container-fluid">
-
       <a class="navbar-brand ps-3 me-0 pt-0 pb-2" href="#"><img src="images/logo-udemy.svg" alt="Logo" class="logo"></a>
-      <!-- <button class="navbar-toggler m-0 p-0" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button> -->
-      <!-- <ul class="pt-1 ps-3"><li class="nav-item list-unstyled text-decoration-none">
-        <a class="nav-link active" aria-current="page" href="#">Categories</a>
-      </li></ul> -->
-
       <div class="dropdown">
         <ul class="pt-1 ps-3">
           <li class="dropbtn list-unstyled nav-item text-decoration-none"><a class="nav-link active" aria-current="page"
@@ -87,50 +77,47 @@
           </div>
         </div>
       </div>
-        <ul class="ps-0 pt-3">
-          <li class="nav-item list-unstyled">
-            <div class="pe-5 ms-3 search-Bar">
-              <form class="d-flex form-control me-2 border-secondary rounded-5 p-2 bg-light" role="search">
-                <i class="fa-sharp fa fa-magnifying-glass align-self-center pe-3 ps-1" style="color: #727274;"></i>
-                <input class="border border-0 pe-5 me-5 bg-light" type="search" placeholder="Search for anything"
-                  aria-label="Search">
+      <ul class="ps-0 pt-3">
+        <li class="nav-item list-unstyled">
+          <div class="pe-5 ms-3 search-Bar">
+            <form class="d-flex form-control me-2 border-secondary rounded-5 p-2 bg-light" role="search">
+              <i class="fa-sharp fa fa-magnifying-glass align-self-center pe-3 ps-1" style="color: #727274;"></i>
+              <input class="border border-0 pe-5 me-5 bg-light" type="search" placeholder="Search for anything"
+                aria-label="Search">
 
-              </form>
-            </div>
+            </form>
+          </div>
+        </li>
+      </ul>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+        <ul class="navbar-nav  mb-2 mb-lg-0">
+
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Udemy Business</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link">Teach on Udemy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=""><i class="fa fa-cart-shopping pt-1 ps-3" style="color: black;"></i></i></a>
+          </li>
+          <li class="nav-item">
+            <button class="py-2 px-3 ms-3 bg-white">Login</button>
+          </li>
+          <li class="nav-item">
+            <button class="py-2 px-3 bg-black text-white ms-2"><span class="fw-1">Sign Up</span></button>
+          </li>
+          <li class="nav-item">
+            <div class="justify-content-end"><button class="ms-2 px-3 py-2 bg-white"><i
+                  class="fa-sharp fa fa-globe"></i></button></div>
+          </li>
+
+
         </ul>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-
-          <ul class="navbar-nav  mb-2 mb-lg-0">
-
-
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Udemy Business</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">Teach on Udemy</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href=""><i class="fa fa-cart-shopping pt-1 ps-3" style="color: black;"></i></i></a>
-            </li>
-            <li class="nav-item">
-              <button class="py-2 px-3 ms-3 bg-white">Login</button>
-            </li>
-            <li class="nav-item">
-              <button class="py-2 px-3 bg-black text-white ms-2"><span class="fw-1">Sign Up</span></button>
-            </li>
-            <li class="nav-item">
-              <div class="justify-content-end"><button class="ms-2 px-3 py-2 bg-white"><i
-                    class="fa-sharp fa fa-globe"></i></button></div>
-            </li>
-
-
-          </ul>
-        </div>
-      
-      <!-- </li>
-      </ul> -->
+      </div>
   </nav>
   <main>
     <div class="divImg px-5 mx-4">
@@ -140,6 +127,7 @@
           <p>Courses start at ₹389 through May 24. Opportunities like this only come once in a season.</p>
       </div>
     </div>
+    <!-- A broad selection of courses Carousel-1 -->
     <section class="px-5 mx-5">
       <div class="pt-5">
         <h1>A broad selection of courses</h1>
@@ -164,7 +152,7 @@
           range of courses that will appeal to...</p>
         <button class="py-2 px-3 ms-2 bg-white">Explore Python</button>
         <div class="row mt-4 pt-2">
-          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner px-2 pb-4">
               <div class="carousel-item active d-flex">
                 <div class="card card-border">
@@ -183,8 +171,9 @@
                         class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
                   </div>
                 </div>
-                <div class="card card-border mx-3">
-                  <img class="card-img-top" src="images/AI Swiegart-Carasoul-Img-1.jpg" alt="Card image cap">
+                <div class="card card-border ms-3">
+                  <img class="card-img-top card-img-height" src="images/AI Swiegart-Carasoul-Img-1.jpg"
+                    alt="Card image cap">
                   <div class="card-body">
                     <strong class="card-title card-title-Font">Automate the Boring Stuff with Python
                       Programming</strong>
@@ -199,7 +188,7 @@
                         class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
                   </div>
                 </div>
-                <div class="card card-border">
+                <div class="card card-border mx-3">
                   <img class="card-img-top" src="images/Kiril Eremenko-Carasoul-Img-2.jpg" alt="Card image cap">
                   <div class="card-body">
                     <strong class="card-title card-title-Font">Machine Learning A-Z™: AI, Python & R + ChatGPT
@@ -216,8 +205,8 @@
                     <p class="bestSeller border ps-2 mt-2">BestSeller</p>
                   </div>
                 </div>
-                <div class="card card-border mx-3">
-                  <img class="card-img-top" src="images/dr.angela yu-Carasoul-Img-3.jpg" alt="Card image cap">
+                <div class="card card-border">
+                  <img class="card-img-top h-50" src="images/dr.angela yu-Carasoul-Img-3.jpg" alt="Card image cap">
                   <div class="card-body">
                     <strong class="card-title card-title-Font">100 Days of Code: The Complete Python Pro...</strong>
                     <p class="card-text mb-0 teacherName-Font">Dr.Angela Yu</p>
@@ -233,7 +222,7 @@
 
                   </div>
                 </div>
-                <div class="card card-border">
+                <div class="card card-border ms-3">
                   <img class="card-img-top" src="images/dev nirmal-Carasoul-Img-4.jpg" alt="Card image cap">
                   <div class="card-body">
                     <strong class="card-title card-title-Font">Python : Master Programming and Development with
@@ -274,32 +263,31 @@
               </div>
             </div>
             <!-- Left and right controls/icons -->
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon bg-black rounded-5 carousal-1-previous-Button p-4 d-none"
+                aria-hidden="true"></span>
               <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
+              <span class="carousel-control-next-icon bg-black carousal-1-Next-Button rounded-5 p-4"
+                aria-hidden="true"></span>
               <span class="sr-only text-danger">Next</span>
             </a>
           </div>
         </div>
       </div>
     </section>
+    <!-- How learners like you are achieving their goals -->
     <div class="bg-light mt-5 px-5 pt-5 pb-2">
       <h4 class="ms-5 pt-2"><strong>How learners like you are achieving their goals</strong></h4>
       <section class="pt-4 pb-5">
         <div class="container">
           <div class="row ps-3">
-
-
             <div class="col-12">
               <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <div class="row">
-
                       <div class="col-md-4 mb-3">
                         <div class="card">
                           <i class="fa-solid fa-quote-left ps-3 pt-4"></i>
@@ -329,7 +317,6 @@
                         <div class="card">
                           <i class="fa-solid fa-quote-left ps-3 pt-4"></i>
                           <div class="card-body">
-
                             <p class="card-text">This course helped me <strong>freshen up on my product manager skills
                                 and land a job at Facebook!</strong>Thanks guys :)
                             </p>
@@ -366,20 +353,16 @@
                               <strong class="Icon-Cover ps-2"> Leadership: Practical Leadership Skills</strong>
                             </div>
                           </div>
-
                         </div>
                       </div>
-
                     </div>
                   </div>
                   <div class="carousel-item">
                     <div class="row">
-
                       <div class="col-md-4 mb-3">
                         <div class="card">
                           <i class="fa-solid fa-quote-left ps-3 pt-4"></i>
                           <div class="card-body">
-
                             <p class="card-text">I highly<strong>recommend this course for all budding data
                                 scientists.</strong>Even people with no prior knowledge of any visualization tools can
                               become a master after completing this course.
@@ -397,144 +380,307 @@
                                 Science</strong>
                             </div>
                           </div>
-
                         </div>
                       </div>
-
-
                     </div>
                   </div>
-
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon bg-black rounded-5 mb-5 d-none carousal-2-previous-Button" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon bg-black rounded-5 mb-5 carousal-2-Next-Button" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
             </div>
           </div>
         </div>
       </section>
     </div>
+    <!-- Students are viewing--Caresoul-3 -->
     <div class="mt-5 pt-3 px-5">
       <h4 class="pb-3 ps-5"><strong>Students are viewing</strong></h4>
-      <div id="carouselExampleControls" class="carousel slide mx-4" data-ride="carousel">
-        <div class="carousel-inner px-4 pb-4">
-          <div class="carousel-item active d-flex">
-            <div class="card card-border">
-              <img class="card-img-top" src="images/C2-Img1.jpg" alt="Card image cap">
-              <div class="card-body">
-                <strong class="card-title card-title-Font">The Complete 2023 Web Development Bootcamp</strong>
-                <p class="card-text mb-0 teacherName-Font">Dr.Angela Yu</p>
-                <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
-                    class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
-                    class="fa-solid fa-star orangecolor"></i><i
-                    class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
-                    (286,826)</span></p>
-                <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
-                <del class="text-muted ps-1"><i
-                    class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
-                <p class="bestSeller border ps-2 mt-2">BestSeller</p>
+      <div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex mx-5">
+              <div class="card card-border border-none border-none">
+                <img class="card-img-top h-50" src="images/C2-Img1.jpg" alt="Card image cap">
+                <div class="card-body p-0 pt-1">
+                  <strong class="card-title card-title-Font">The Complete 2023 Web Development Bootcamp</strong>
+                  <p class="card-text mb-0 teacherName-Font">Dr.Angela Yu</p>
+                  <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                      (286,826)</span></p>
+                  <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
+                  <del class="text-muted ps-1"><i
+                      class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
+                  <p class="bestSeller border ps-2 mt-2">BestSeller</p>
+                </div>
               </div>
-            </div>
-            <div class="card card-border mx-3">
-              <img class="card-img-top" src="images/C2-Img2.jpg" alt="Card image cap">
-              <div class="card-body">
-                <strong class="card-title card-title-Font">100 Days of Code: The Complete Python Pro Bootcamp for
-                  2023</strong>
-                <p class="card-text mb-0 teacherName-Font">Dr.Angela Yu</p>
-                <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
-                    class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
-                    class="fa-solid fa-star orangecolor"></i><i
-                    class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
-                    (199,888)</span></p>
-                <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
-                <del class="text-muted ps-1"><i
-                    class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
-                <p class="bestSeller border ps-2 mt-2">BestSeller</p>
+              <div class="card card-border border-none mx-3">
+                <img class="card-img-top" src="images/C2-Img2.jpg" alt="Card image cap">
+                <div class="card-body p-0 pt-1">
+                  <strong class="card-title card-title-Font">100 Days of Code: The Complete Python Pro Bootcamp for
+                    2023</strong>
+                  <p class="card-text mb-0 teacherName-Font">Dr.Angela Yu</p>
+                  <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                      (199,888)</span></p>
+                  <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
+                  <del class="text-muted ps-1"><i
+                      class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
+                  <p class="bestSeller border ps-2 mt-2">BestSeller</p>
+                </div>
               </div>
-            </div>
-            <div class="card card-border">
-              <img class="card-img-top" src="images/C2-Img3.jpg" alt="Card image cap">
-              <div class="card-body">
-                <strong class="card-title card-title-Font">Machine Learning A-Z™: AI, Python & R + ChatGPT
-                  Bonus...</strong>
-                <p class="card-text mb-0 teacherName-Font">Stephane Maarek | AWS certified Clou...</p>
-                <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
-                    class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
-                    class="fa-solid fa-star orangecolor"></i><i
-                    class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
-                    (180,996)</span></p>
-                <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
-                <del class="text-muted ps-1"><i
-                    class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
-                <p class="bestSeller border ps-2 mt-2">BestSeller</p>
+              <div class="card card-border border-none">
+                <img class="card-img-top h-50" src="images/C2-Img3.jpg" alt="Card image cap">
+                <div class="card-body p-0 pt-1">
+                  <strong class="card-title card-title-Font">Machine Learning A-Z™: AI, Python & R + ChatGPT
+                    Bonus...</strong>
+                  <p class="card-text mb-0 teacherName-Font">Stephane Maarek | AWS certified Clou...</p>
+                  <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                      (180,996)</span></p>
+                  <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
+                  <del class="text-muted ps-1"><i
+                      class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
+                  <p class="bestSeller border ps-2 mt-2">BestSeller</p>
+                </div>
               </div>
-            </div>
-            <div class="card card-border mx-3">
-              <img class="card-img-top" src="images/C2-Img4.jpg" alt="Card image cap">
-              <div class="card-body">
-                <strong class="card-title card-title-Font">[NEW]Ultimate AWS Certified Cloud Practitioner...</strong>
-                <p class="card-text mb-0 teacherName-Font">Stephane Maarek | AWS certified Clou...</p>
-                <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
-                    class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
-                    class="fa-solid fa-star orangecolor"></i><i
-                    class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
-                    (146,921)</span></p>
-                <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
-                <del class="text-muted ps-1"><i
-                    class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
-                <p class="bestSeller border ps-2 mt-2">BestSeller</p>
+              <div class="card card-border border-none mx-3">
+                <img class="card-img-top h-50" src="images/C2-Img4.jpg" alt="Card image cap">
+                <div class="card-body p-0 pt-1">
+                  <strong class="card-title card-title-Font">[NEW]Ultimate AWS Certified Cloud Practitioner...</strong>
+                  <p class="card-text mb-0 teacherName-Font">Stephane Maarek | AWS certified Clou...</p>
+                  <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                      (146,921)</span></p>
+                  <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
+                  <del class="text-muted ps-1"><i
+                      class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
+                  <p class="bestSeller border ps-2 mt-2">BestSeller</p>
 
+                </div>
               </div>
-            </div>
-            <div class="card card-border">
-              <img class="card-img-top" src="images/C2-Img5.jpg" alt="Card image cap">
-              <div class="card-body">
-                <strong class="card-title card-title-Font">React-The Complete Guide(incl Hooks,React Router)...</strong>
-                <p class="card-text mb-0 teacherName-Font">Academind by Maximililian Schwarzmull...</p>
-                <p class="fourColor mb-0">4.6 <i class="fa-solid fa-star orangecolor"></i><i
-                    class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
-                    class="fa-solid fa-star orangecolor"></i><i
-                    class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
-                    (185,205)</span></p>
-                <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
-                <del class="text-muted ps-1"><i
-                    class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>2,299</del>
-                <p class="bestSeller border ps-2 mt-2">BestSeller</p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="..." alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+              <div class="card card-border border-none">
+                <img class="card-img-top h-50" src="images/C2-Img5.jpg" alt="Card image cap">
+                <div class="card-body p-0 pt-1">
+                  <strong class="card-title card-title-Font">React-The Complete Guide(incl Hooks,React
+                    Router)...</strong>
+                  <p class="card-text mb-0 teacherName-Font">Academind by Maximililian Schwarzmull...</p>
+                  <p class="fourColor mb-0">4.6 <i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                      (185,205)</span></p>
+                  <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
+                  <del class="text-muted ps-1"><i
+                      class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>2,299</del>
+                  <p class="bestSeller border ps-2 mt-2">BestSeller</p>
+                </div>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="..." alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="d-flex mx-5">
+              <div class="card card-border">
+                <img class="card-img-top" src="images/C2-Img1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <strong class="card-title card-title-Font">The Complete 2023 Web Development Bootcamp</strong>
+                  <p class="card-text mb-0 teacherName-Font">Dr.Angela Yu</p>
+                  <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                      (286,826)</span></p>
+                  <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
+                  <del class="text-muted ps-1"><i
+                      class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
+                  <p class="bestSeller border ps-2 mt-2">BestSeller</p>
+                </div>
+              </div>
+              <div class="card card-border mx-3">
+                <img class="card-img-top" src="images/C2-Img2.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <strong class="card-title card-title-Font">100 Days of Code: The Complete Python Pro Bootcamp for
+                    2023</strong>
+                  <p class="card-text mb-0 teacherName-Font">Dr.Angela Yu</p>
+                  <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                      (199,888)</span></p>
+                  <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
+                  <del class="text-muted ps-1"><i
+                      class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
+                  <p class="bestSeller border ps-2 mt-2">BestSeller</p>
+                </div>
+              </div>
+              <div class="card card-border">
+                <img class="card-img-top" src="images/C2-Img3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <strong class="card-title card-title-Font">Machine Learning A-Z™: AI, Python & R + ChatGPT
+                    Bonus...</strong>
+                  <p class="card-text mb-0 teacherName-Font">Stephane Maarek | AWS certified Clou...</p>
+                  <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                      (180,996)</span></p>
+                  <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
+                  <del class="text-muted ps-1"><i
+                      class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
+                  <p class="bestSeller border ps-2 mt-2">BestSeller</p>
+                </div>
+              </div>
+              <div class="card card-border mx-3">
+                <img class="card-img-top" src="images/C2-Img4.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <strong class="card-title card-title-Font">[NEW]Ultimate AWS Certified Cloud Practitioner...</strong>
+                  <p class="card-text mb-0 teacherName-Font">Stephane Maarek | AWS certified Clou...</p>
+                  <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                      (146,921)</span></p>
+                  <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
+                  <del class="text-muted ps-1"><i
+                      class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
+                  <p class="bestSeller border ps-2 mt-2">BestSeller</p>
+
+                </div>
+              </div>
+              <div class="card card-border">
+                <img class="card-img-top" src="images/C2-Img5.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <strong class="card-title card-title-Font">React-The Complete Guide(incl Hooks,React
+                    Router)...</strong>
+                  <p class="card-text mb-0 teacherName-Font">Academind by Maximililian Schwarzmull...</p>
+                  <p class="fourColor mb-0">4.6 <i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                      (185,205)</span></p>
+                  <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
+                  <del class="text-muted ps-1"><i
+                      class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>2,299</del>
+                  <p class="bestSeller border ps-2 mt-2">BestSeller</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex mx-5">
+              <div class="card card-border">
+                <img class="card-img-top" src="images/C2-Img1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <strong class="card-title card-title-Font">The Complete 2023 Web Development Bootcamp</strong>
+                  <p class="card-text mb-0 teacherName-Font">Dr.Angela Yu</p>
+                  <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                      (286,826)</span></p>
+                  <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
+                  <del class="text-muted ps-1"><i
+                      class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
+                  <p class="bestSeller border ps-2 mt-2">BestSeller</p>
+                </div>
+              </div>
+              <div class="card card-border mx-3">
+                <img class="card-img-top" src="images/C2-Img2.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <strong class="card-title card-title-Font">100 Days of Code: The Complete Python Pro Bootcamp for
+                    2023</strong>
+                  <p class="card-text mb-0 teacherName-Font">Dr.Angela Yu</p>
+                  <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                      (199,888)</span></p>
+                  <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
+                  <del class="text-muted ps-1"><i
+                      class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
+                  <p class="bestSeller border ps-2 mt-2">BestSeller</p>
+                </div>
+              </div>
+              <div class="card card-border">
+                <img class="card-img-top" src="images/C2-Img3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <strong class="card-title card-title-Font">Machine Learning A-Z™: AI, Python & R + ChatGPT
+                    Bonus...</strong>
+                  <p class="card-text mb-0 teacherName-Font">Stephane Maarek | AWS certified Clou...</p>
+                  <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                      (180,996)</span></p>
+                  <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
+                  <del class="text-muted ps-1"><i
+                      class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
+                  <p class="bestSeller border ps-2 mt-2">BestSeller</p>
+                </div>
+              </div>
+              <div class="card card-border mx-3">
+                <img class="card-img-top" src="images/C2-Img4.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <strong class="card-title card-title-Font">[NEW]Ultimate AWS Certified Cloud Practitioner...</strong>
+                  <p class="card-text mb-0 teacherName-Font">Stephane Maarek | AWS certified Clou...</p>
+                  <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                      (146,921)</span></p>
+                  <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
+                  <del class="text-muted ps-1"><i
+                      class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
+                  <p class="bestSeller border ps-2 mt-2">BestSeller</p>
+
+                </div>
+              </div>
+              <div class="card card-border">
+                <img class="card-img-top" src="images/C2-Img5.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <strong class="card-title card-title-Font">React-The Complete Guide(incl Hooks,React
+                    Router)...</strong>
+                  <p class="card-text mb-0 teacherName-Font">Academind by Maximililian Schwarzmull...</p>
+                  <p class="fourColor mb-0">4.6 <i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star orangecolor"></i><i
+                      class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                      (185,205)</span></p>
+                  <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
+                  <del class="text-muted ps-1"><i
+                      class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>2,299</del>
+                  <p class="bestSeller border ps-2 mt-2">BestSeller</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <!-- Left and right controls/icons -->
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon bg-black rounded-5 p-4 carousal-3-previous-Button d-none" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
+          <span class="carousel-control-next-icon bg-black rounded-5 p-4 carousal-3-Next-Button" aria-hidden="true"></span>
           <span class="sr-only text-danger">Next</span>
         </a>
       </div>
     </div>
+    <!-- Top categories -->
     <div class="mt-5 pt-3 px-5 mx-5">
       <h3 class="pb-3"><strong>Top categories</strong></h3>
       <div class="row d-flex justify-content-between">
@@ -566,6 +712,7 @@
         </div>
       </div>
     </div>
+    <!-- Featured topics by category -->
     <section class="ps-5 bg-light">
       <div class="me-0 ps-5 pb-5">
         <h4 class="pt-5"><strong>Featured topics by category</strong></h4>
@@ -632,6 +779,7 @@
         </div>
       </div>
     </section>
+    <!-- Trusted by over 13,400 great teams -->
     <section class="p-5">
       <div class="p-5">
         <h2 class="text-center"><strong>Trusted by over 13,400 great teams</strong></h2>
@@ -646,71 +794,81 @@
         </div>
       </div>
     </section>
+    <!-- Caresoul3--VIEW More -->
     <section class="bg-light pb-5">
-      <div id="carouselExample" class="carousel slide mb-5">
+      <div id="carouselExample3" class="carousel slide">
         <div class="carousel-inner">
-          <div class="carousel-item active d-flex justify-content-center">
-            <div class="border carousal-box-border bg-white mt-5 pb-3">
-              <div class="row">
-                <div class="col-7"><i class="fa-solid fa-quote-left ps-4 pt-4"></i>
-                  <p class="carasoul-height ps-4 mb-5">With Udemy Business<strong>employees were able to marry the two
-                      together, technology and consultant soft skills.</strong>We're thankful that once they got in and
-                    took their key IT courses on AWS, Azure, Google Cloud, Big Data, and DevOps that they efficiently
-                    moved over to Consulting courses to help drive their career forward.</p>
-                  <u class="Icon-Cover ps-4"><strong>Read full story</strong></u>
-                </div>
-                <div class="col-5 pe-5">
-                  <img src="images/author-carasoul-1.png" alt="" class="author-carasoul mt-4 ms-5">
-                  <div>
-                    <h5 class="ps-5 mt-4"><strong class="ps-4">Ian Stevens</strong></h5>
-                    <p class="carousal-box-p ps-0">Global Head of Capability Development
-                      <span class="ps-5 ms-4">North America</span>
-                    </p>
-                    <p class="ms-5 ps-4">Publicis Sapient</p>
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+              <div class="border carousal-box-border bg-white mt-5 pb-3">
+                <div class="row">
+                  <div class="col-7"><i class="fa-solid fa-quote-left ps-4 pt-4"></i>
+                    <p class="carasoul-height ps-4 mb-5">With Udemy Business<strong>employees were able to marry the two
+                        together, technology and consultant soft skills.</strong>We're thankful that once they got in
+                      and
+                      took their key IT courses on AWS, Azure, Google Cloud, Big Data, and DevOps that they efficiently
+                      moved over to Consulting courses to help drive their career forward.</p>
+                    <u class="Icon-Cover ps-4"><strong>Read full story</strong></u>
+                  </div>
+                  <div class="col-5 pe-5">
+                    <img src="images/author-carasoul-1.png" alt="" class="author-carasoul mt-4 ms-5">
+                    <div>
+                      <h5 class="ps-5 mt-4"><strong class="ps-4">Ian Stevens</strong></h5>
+                      <p class="carousal-box-p ps-0">Global Head of Capability Development
+                        <span class="ps-5 ms-4">North America</span>
+                      </p>
+                      <p class="ms-5 ps-4">Publicis Sapient</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="carousel-item d-flex justify-content-center">
-            <div class="border carousal-box-border bg-white mt-5 pb-3">
-              <div class="row">
-                <div class="col-7"><i class="fa-solid fa-quote-left ps-4 pt-4"></i>
-                  <p class="carasoul-height ps-4 mb-5">To stay at the leading edge of IT innovation, your team needs to
-                    regularly reinvent its skillset. With Udemy Business, I can give my team the space to learn and take
-                    the initiative. It means we can<strong>produce higher quality work more quickly.</strong></p>
-                  <u class="Icon-Cover ps-4"><strong>Read full story</strong></u>
-                </div>
-                <div class="col-5 pe-5">
-                  <img src="images/author-carasoul-2.png" alt="" class="author-carasoul mt-4 ms-5">
-                  <div>
-                    <h5 class="ps-5 mt-4"><strong class="">Ismaeel Ameen</strong></h5>
-                    <p class="carousal-box-p ps-4 text-muted">Head of Data Engineering
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="border carousal-box-border bg-white mt-5 pb-3">
+                <div class="row">
+                  <div class="col-7"><i class="fa-solid fa-quote-left ps-4 pt-4"></i>
+                    <p class="carasoul-height ps-4 mb-5">To stay at the leading edge of IT innovation, your team needs
+                      to
+                      regularly reinvent its skillset. With Udemy Business, I can give my team the space to learn and
+                      take
+                      the initiative. It means we can<strong>produce higher quality work more quickly.</strong></p>
+                    <u class="Icon-Cover ps-4"><strong>Read full story</strong></u>
+                  </div>
+                  <div class="col-5 pe-5">
+                    <img src="images/author-carasoul-2.png" alt="" class="author-carasoul mt-4 ms-5">
+                    <div>
+                      <h5 class="ps-5 mt-4"><strong class="">Ismaeel Ameen</strong></h5>
+                      <p class="carousal-box-p ps-4 text-muted">Head of Data Engineering
 
-                      <span class="ms-2">Development and Data Management</span>
-                    </p>
-                    <p class="ms-5 ps-4">Robert Walters</p>
+                        <span class="ms-2">Development and Data Management</span>
+                      </p>
+                      <p class="ms-5 ps-4">Robert Walters</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="carousel-item d-flex justify-content-center">
-            <div class="border carousal-box-border bg-white mt-5 pb-2">
-              <div class="row">
-                <div class="col-7"><i class="fa-solid fa-quote-left ps-4 pt-4"></i>
-                  <p class="carasoul-height ps-4 mb-5">Udemy has been a great platform to stay competitive in the
-                    digital transformation of the workplace by offering<strong>fresh, relevant, personalized on-demand
-                      learning content</strong>powered by a dynamic content marketplace.</p>
-                  <u class="Icon-Cover ps-4"><strong>Read full story</strong></u>
-                </div>
-                <div class="col-5 pe-5">
-                  <img src="images/author-carasoul-3.png" alt="" class="author-carasoul mt-4 ms-5">
-                  <div>
-                    <h5 class="ps-5 mt-4 ms-3"><strong class="">Karen Hunter</strong></h5>
-                    <p class="carousal-box-p text-muted ms-5 ps-1 mb-0">America's Team Lead </p>
-                    <p class="ps-4 ms-3 text-muted">Learning & Development</p>
-                    <p class="ms-5 ps-5">Steelcase</p>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="border carousal-box-border bg-white mt-5 pb-2">
+                <div class="row">
+                  <div class="col-7"><i class="fa-solid fa-quote-left ps-4 pt-4"></i>
+                    <p class="carasoul-height ps-4 mb-5">Udemy has been a great platform to stay competitive in the
+                      digital transformation of the workplace by offering<strong>fresh, relevant, personalized on-demand
+                        learning content</strong>powered by a dynamic content marketplace.</p>
+                    <u class="Icon-Cover ps-4"><strong>Read full story</strong></u>
+                  </div>
+                  <div class="col-5 pe-5">
+                    <img src="images/author-carasoul-3.png" alt="" class="author-carasoul mt-4 ms-5">
+                    <div>
+                      <h5 class="ps-5 mt-4 ms-3"><strong class="">Karen Hunter</strong></h5>
+                      <p class="carousal-box-p text-muted ms-5 ps-1 mb-0">America's Team Lead </p>
+                      <p class="ps-4 ms-3 text-muted">Learning & Development</p>
+                      <p class="ms-5 ps-5">Steelcase</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -718,18 +876,20 @@
           </div>
 
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon carasoul-Next-Button p-1 bg-black" aria-hidden="true"></span>
+        <button class="carousel-control-prev carousal-Previous-Button d-none" type="button"
+          data-bs-target="#carouselExample3" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon p-3 rounded-5 bg-black" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon carasoul-Next-Button p-1 bg-black" aria-hidden="true"></span>
+        <button class="carousel-control-next carousal-Next-Button" type="button" data-bs-target="#carouselExample3"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon p-3 rounded-5 bg-black" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <p class="text-center mb-3"><strong class="Icon-Cover">View more customer stories ></strong></p>
+      <p class="text-center mb-3 mt-5"><strong class="Icon-Cover">View more customer stories ></strong></p>
     </section>
-
+    <!-- Upskill your team with Udemy Business -->
     <section class="pt-5">
       <div class="container">
         <div class="row px-5 mx-5">
@@ -765,6 +925,7 @@
         </div>
       </div>
     </section>
+    <!-- Footer -->
     <footer class="bg-black px-5 py-4">
       <div class="row pb-5">
         <div class="col-6">

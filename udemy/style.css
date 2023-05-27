@@ -37,6 +37,9 @@
     color:black;
     width: 449px;
   }
+  .card-img-height{
+   height: 43%;
+  }
 .course-hover li:hover{
     color: rgb(126, 12, 31);
 }
@@ -97,10 +100,45 @@
     height: 43%;
     border-radius: 80px;
 }
+.carousal-Previous-Button{
+    margin-left: 185px;
+}
 .carousal-Next-Button{
-    border-radius: 23px;
-    height: 46px;
-    width: 46px;
+    margin-right: 185px;
+}
+/* carasoul style */
+
+
+    .carousel-item:first-child .carousel-control-next {
+      display: block;
+    }
+
+    .carousel-item:last-child .carousel-control-prev {
+      display: block;
+    }
+
+
+    
+/* crasouel style */
+.carousal-1-previous-Button{
+    margin-right: 134px;
+}
+.carousal-1-Next-Button{
+    margin-left: 134px;
+}
+.carousal-2-previous-Button{
+    margin-right: 160px;
+}
+.carousal-2-Next-Button{
+    margin-left: 160px;
+}
+.carousal-3-previous-Button{
+    margin-right: 10px;
+    margin-bottom: 245px;
+}
+.carousal-3-Next-Button{
+    margin-left: 107px;
+    margin-bottom: 172px;
 }
 .udemy-Business-Logo{
     height: 50%;
