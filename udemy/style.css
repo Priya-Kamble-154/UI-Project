@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 .search-Bar{
     width: 173%;
 }
@@ -38,7 +39,10 @@
     width: 449px;
   }
   .card-img-height{
-   height: 43%;
+   height: 47%;
+  }
+  .card4-img4-height{
+    width: 32%;
   }
 .course-hover li:hover{
     color: rgb(126, 12, 31);
@@ -95,7 +99,6 @@
     height: 50%;
 }
 .author-carasoul{
-    
     width: 45%;
     height: 47%;
     border-radius: 80px;
@@ -107,18 +110,13 @@
     margin-right: 185px;
 }
 /* carasoul style */
-
-
-    .carousel-item:first-child .carousel-control-next {
+ .carousel-item:first-child .carousel-control-next {
       display: block;
     }
 
     .carousel-item:last-child .carousel-control-prev {
       display: block;
-    }
-
-
-    
+    }   
 /* crasouel style */
 .carousal-1-previous-Button{
     margin-right: 134px;
@@ -155,7 +153,25 @@
     width: 192px;
     height: 32px;
 }
- .footer-OnHover .a{
-    text-decoration: underline; 
-    background-color: yellowgreen;
+#footer-OnHover:hover{
+   border: 3px sodid white;
+    text-decoration: underline;
+    color: #5624d0;
+  
 }
+.family{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+}
+#imgHover:hover{
+    /* transform: scale(1.5);  */
+ height: 90%; 
+ width: 100%;
+}
+.anchor-Hover a:hover{
+    border-bottom: 1px solid white;
+   width: 65%;
+    }
+.margin-rightClass{
+    margin-right: -312px;
+}    
