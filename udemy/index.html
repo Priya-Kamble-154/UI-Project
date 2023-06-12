@@ -72,8 +72,6 @@
               <div class="d-flex justify-content-between"><a href="#" class="ms-0 ps-0">Teaching & Academics </a><i
                   class="fa fa-chevron-right ps-5 align-self-center "></i></div>
             </div>
-
-
           </div>
         </div>
       </div>
@@ -84,17 +82,12 @@
               <i class="fa-sharp fa fa-magnifying-glass align-self-center pe-3 ps-1" style="color: #727274;"></i>
               <input class="border border-0 pe-5 me-5 bg-light" type="search" placeholder="Search for anything"
                 aria-label="Search">
-
             </form>
           </div>
         </li>
       </ul>
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-
         <ul class="navbar-nav  mb-2 mb-lg-0">
-
-
-
           <li class="nav-item">
             <a class="nav-link" href="#">Udemy Business</a>
           </li>
@@ -105,10 +98,12 @@
             <a class="nav-link" href=""><i class="fa fa-cart-shopping pt-1 ps-3" style="color: black;"></i></i></a>
           </li>
           <li class="nav-item">
-            <button class="py-2 px-3 ms-3 bg-white">Login</button>
+            <button class="py-2 px-3 ms-3 bg-white" data-bs-toggle="modal"
+              data-bs-target="#exampleModal1">Login</button>
           </li>
           <li class="nav-item">
-            <button class="py-2 px-3 bg-black text-white ms-2"><span class="fw-1">Sign Up</span></button>
+            <button class="py-2 px-3 bg-black text-white ms-2" data-bs-toggle="modal"
+              data-bs-target="#exampleModal"><span class="fw-1">Sign Up</span></button>
           </li>
           <li class="nav-item">
             <div class="justify-content-end"><button class="ms-2 px-3 py-2 bg-white"><i
@@ -118,6 +113,98 @@
       </div>
     </div>
   </nav>
+  <!-- Modal-Popup Of Login -->
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModal1Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <section class=" gradient-custom">
+            <div class="container ">
+              <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-8 col-lg-6 col-xl-5 w-100 h-50">
+                  <div class="card bg-secondary text-white" style="border-radius: 1rem;">
+                    <div class="card-body text-center">
+                      <div class="mb-md-5 mt-md-4">
+                        <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
+                        <p class="text-white-50">Please enter your login and password!</p>
+                        <div class="form-outline form-white mb-4">
+                          <input type="email" id="typeEmailX" class="form-control form-control-lg" />
+                          <label class="form-label" for="typeEmailX">Email</label>
+                        </div>
+                        <div class="form-outline form-white mb-2">
+                          <input type="password" id="typePasswordX" class="form-control form-control-lg" />
+                          <label class="form-label" for="typePasswordX">Password</label>
+                        </div>
+                        <p class="small pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p>
+                        <button class="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
+                        <div class="d-flex justify-content-center text-center mt-4 pt-1">
+                          <a href="#!" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a>
+                          <a href="#!" class="text-white"><i class="fab fa-twitter fa-lg mx-4 px-2"></i></a>
+                          <a href="#!" class="text-white"><i class="fab fa-google fa-lg"></i></a>
+                        </div>
+                        <div>
+                          <p class="m-0">Don't have an account? <a href="#!" class="text-white-50 fw-bold">Sign Up</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal-Popup Of Login-END -->
+  <!-- Modal-Popup Of Signin -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <section class="">
+            <div class="container">
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12 col-md-8 col-lg-6 col-xl-5 w-100 h-50">
+                  <div class="card shadow-2-strong" style="border-radius: 1rem;">
+                    <div class="card-body bg-light rounded-4 text-center">
+                      <h3 class="mb-5">Sign in</h3>
+                      <div class="form-outline ">
+                        <input type="email" id="typeEmailX-2" class="form-control form-control-lg" />
+                        <label class="form-label" for="typeEmailX-2">Email</label>
+                      </div>
+                      <div class="form-outline ">
+                        <input type="password" id="typePasswordX-2" class="form-control form-control-lg" />
+                        <label class="form-label" for="typePasswordX-2">Password</label>
+                      </div>
+                      <!-- Checkbox -->
+                      <div class="form-check d-flex justify-content-start ">
+                        <input class="form-check-input me-2" type="checkbox" value="" id="form1Example3" />
+                        <label class="form-check-label" for="form1Example3"> Remember password </label>
+                      </div>
+                      <button class="btn btn-primary btn-lg btn-block pt-1 mt-3" type="submit">Login</button>
+                      <hr class="my-4">
+                      <button class="btn btn-lg btn-block btn-primary mb-2" style="background-color: #dd4b39;"
+                        type="submit"><i class="fab fa-google me-2"></i> Sign in with google</button>
+                      <button class="btn btn-lg btn-block btn-primary mb-2" style="background-color: #3b5998;"
+                        type="submit"><i class="fab fa-facebook-f me-2"></i>Sign in with facebook</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal-Popup og Signin-END -->
   <main>
     <div class="container-fluid">
       <div class="divImg px-5 mx-4">
@@ -130,282 +217,289 @@
     </div>
     <!-- A broad selection of courses Carousel-1 -->
     <section class="px-5 mx-5">
-     <div class="container">
-      <div class="pt-5">
-        <h1 class="family">A broad selection of courses</h1>
-        <h5 class="pt-2 pb-2 text-muted">Choose from over 210,000 online video courses with new additions published every month</h5>
-      </div>
-      <div class="course-hover">
-        <ul class="list-unstyled d-flex">
-          <li class=""><strong>Python</strong></li>
-          <li class="ms-4 text-muted"><strong>Excel</strong></li>
-          <li class="ms-4 text-muted"><strong>Web Developement</strong></li>
-          <li class="ms-4 text-muted"><strong>JavaScript</strong></li>
-          <li class="ms-4 text-muted"><strong>Data Science</strong></li>
-          <li class="ms-4 text-muted"><strong>Amazon AWS</strong></li>
-          <li class="ms-4 text-muted"><strong>Drawing</strong></li>
-        </ul>
-      </div>
-      <div class="border px-4 pt-4 mb-5">
-        <h3 class="ps-1 pt-2"><strong>Expand your career opportunities with Python</strong></h3>
-        <p class="paragraph ps-1">Take one of Udemy’s range of Python courses and learn how to code using this
-          incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data
-          science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from a
-          range of courses that will appeal to...</p>
-        <button class="py-2 px-3 ms-2 bg-white">Explore Python</button>
-        <div class="row mt-4 pt-2">
-          <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="px-2 pb-4 d-flex">
-                <div class="card border-0">
-                  <img class="card-img-top" src="images/jose portilla.jpg" alt="Card image cap">
-                  <div class="card-body p-0 mt-3">
-                    <div><strong class="card-title card-title-Font w-50">The Complete Python Bootcamp From Zero to Hero
-                      ...</strong></div>
-                    <p class="card-text mb-0 teacherName-Font">Jose Portilla</p>
-                    <p class="fourColor mb-0">4.6 <i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
-                        (464,133)</span></p>
-                    <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399 </strong>
-                    
-                  </div>
-                </div>
-                <div class="card border-0 ms-3">
-                  <img class="card-img-top card-img-height" src="images/AI Swiegart-Carasoul-Img-1.jpg"
-                    alt="Card image cap">
-                  <div class="card-body p-0">
-                    <strong class="card-title card-title-Font">Automate the Boring Stuff with Python
-                      Programming</strong>
-                    <p class="card-text mb-0 teacherName-Font">AI Sweigart</p>
-                    <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
-                        (104,147)</span></p>
-                    <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399 </strong>
-                    
-                  </div>
-                </div>
-                <div class="card border-0 mx-3">
-                  <img class="card-img-top" src="images/Kiril Eremenko-Carasoul-Img-2.jpg" alt="Card image cap">
-                  <div class="card-body p-0">
-                    <strong class="card-title card-title-Font">Machine Learning A-Z™: AI, Python & R + ChatGPT
-                      Bonus...</strong>
-                    <p class="card-text mb-0 teacherName-Font">Kirill Eremenko,Hadelin de Pontev..</p>
-                    <p class="fourColor mb-0">4.5 <i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
-                        (169,631)</span></p>
-                    <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399 </strong>
-                    <p class="bestSeller border ps-2 mt-2">BestSeller</p>
-                  </div>
-                </div>
-                <div class="card border-0">
-                  <img class="card-img-top card-img-height" src="images/dr.angela yu-Carasoul-Img-3.jpg" alt="Card image cap">
-                  <div class="card-body p-0">
-                    <strong class="card-title card-title-Font">100 Days of Code: The Complete Python Pro...</strong>
-                    <p class="card-text mb-0 teacherName-Font">Dr.Angela Yu</p>
-                    <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
-                        (200,924)</span></p>
-                    <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399 </strong>
-                    <p class="bestSeller border ps-2 mt-2">BestSeller</p>
-                  </div>
-                </div>
-                <div class="card border-0 ms-3">
-                  <img class="card-img-top" src="images/dev nirmal-Carasoul-Img-4.jpg" alt="Card image cap">
-                  <div class="card-body p-0">
-                    <strong class="card-title card-title-Font">Python : Master Programming and Development with
-                      15...</strong>
-                    <p class="card-text mb-0 teacherName-Font">Dev Nirwal</p>
-                    <p class="fourColor mb-0">4.3 <i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
-                        (13,252)</span></p>
-                    <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>2,299 </strong>
-                  </div>
-                </div>
-              </div>
-              </div>
-              <div class="carousel-item">
-                <div class="px-2 pb-4 d-flex">
-                  <div class="card border-0">
-                    <img class="card-img-top" src="images/dev nirmal-Carasoul-Img-4.jpg" alt="Card image cap">
-                    <div class="card-body p-0">
-                      <strong class="card-title card-title-Font">Python : Master Programming and Development with
-                        15...</strong>
-                      <p class="card-text mb-0 teacherName-Font">Dev Nirwal</p>
-                      <p class="fourColor mb-0">4.3 <i class="fa-solid fa-star orangecolor"></i><i
-                          class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
-                          class="fa-solid fa-star orangecolor"></i><i
-                          class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
-                          (13,252)</span></p>
-                      <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>2,299 </strong>
+      <div class="container">
+        <div class="pt-5">
+          <h1 class="family">A broad selection of courses</h1>
+          <h5 class="pt-2 pb-2 text-muted">Choose from over 210,000 online video courses with new additions published
+            every month</h5>
+        </div>
+        <div class="course-hover">
+          <ul class="list-unstyled d-flex">
+            <li class=""><strong>Python</strong></li>
+            <li class="ms-4 text-muted"><strong>Excel</strong></li>
+            <li class="ms-4 text-muted"><strong>Web Developement</strong></li>
+            <li class="ms-4 text-muted"><strong>JavaScript</strong></li>
+            <li class="ms-4 text-muted"><strong>Data Science</strong></li>
+            <li class="ms-4 text-muted"><strong>Amazon AWS</strong></li>
+            <li class="ms-4 text-muted"><strong>Drawing</strong></li>
+          </ul>
+        </div>
+        <div class="border px-4 pt-4 mb-5">
+          <h3 class="ps-1 pt-2"><strong>Expand your career opportunities with Python</strong></h3>
+          <p class="paragraph ps-1">Take one of Udemy’s range of Python courses and learn how to code using this
+            incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data
+            science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from
+            a
+            range of courses that will appeal to...</p>
+          <button class="py-2 px-3 ms-2 bg-white">Explore Python</button>
+          <div class="row mt-4 pt-2">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="px-2 pb-4 d-flex">
+                    <div class="card border-0">
+                      <img class="card-img-top" src="images/jose portilla.jpg" alt="Card image cap">
+                      <div class="card-body p-0 mt-3">
+                        <div><strong class="card-title card-title-Font w-50">The Complete Python Bootcamp From Zero to
+                            Hero
+                            ...</strong></div>
+                        <p class="card-text mb-0 teacherName-Font">Jose Portilla</p>
+                        <p class="fourColor mb-0">4.6 <i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                            (464,133)</span></p>
+                        <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399 </strong>
+                      </div>
+                    </div>
+                    <div class="card border-0 ms-3">
+                      <img class="card-img-top card-img-height" src="images/AI Swiegart-Carasoul-Img-1.jpg"
+                        alt="Card image cap">
+                      <div class="card-body p-0">
+                        <strong class="card-title card-title-Font">Automate the Boring Stuff with Python
+                          Programming</strong>
+                        <p class="card-text mb-0 teacherName-Font">AI Sweigart</p>
+                        <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                            (104,147)</span></p>
+                        <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399 </strong>
+                      </div>
+                    </div>
+                    <div class="card border-0 mx-3">
+                      <img class="card-img-top" src="images/Kiril Eremenko-Carasoul-Img-2.jpg" alt="Card image cap">
+                      <div class="card-body p-0">
+                        <strong class="card-title card-title-Font">Machine Learning A-Z™: AI, Python & R + ChatGPT
+                          Bonus...</strong>
+                        <p class="card-text mb-0 teacherName-Font">Kirill Eremenko,Hadelin de Pontev..</p>
+                        <p class="fourColor mb-0">4.5 <i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                            (169,631)</span></p>
+                        <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399 </strong>
+                        <p class="bestSeller border ps-2 mt-2">BestSeller</p>
+                      </div>
+                    </div>
+                    <div class="card border-0">
+                      <img class="card-img-top card-img-height" src="images/dr.angela yu-Carasoul-Img-3.jpg"
+                        alt="Card image cap">
+                      <div class="card-body p-0">
+                        <strong class="card-title card-title-Font">100 Days of Code: The Complete Python Pro...</strong>
+                        <p class="card-text mb-0 teacherName-Font">Dr.Angela Yu</p>
+                        <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                            (200,924)</span></p>
+                        <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399 </strong>
+                        <p class="bestSeller border ps-2 mt-2">BestSeller</p>
+                      </div>
+                    </div>
+                    <div class="card border-0 ms-3">
+                      <img class="card-img-top" src="images/dev nirmal-Carasoul-Img-4.jpg" alt="Card image cap">
+                      <div class="card-body p-0">
+                        <strong class="card-title card-title-Font">Python : Master Programming and Development with
+                          15...</strong>
+                        <p class="card-text mb-0 teacherName-Font">Dev Nirwal</p>
+                        <p class="fourColor mb-0">4.3 <i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                            (13,252)</span></p>
+                        <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>2,299 </strong>
+                      </div>
                     </div>
                   </div>
-                <div class="card border-0 ms-3">
-                  <img class="card-img-top mt-1" src="images/Jose Portilla-Carasoul-Img-5.jpg"
-                    alt="Card image cap">
-                  <div class="card-body p-0">
-                    <strong class="card-title card-title-Font">Python for Data Science and Machine Learning Bootcamp</strong>
-                    <p class="card-text mb-0 teacherName-Font">Jose Portilla</p>
-                    <p class="fourColor mb-0">4.6 <i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
-                        (130,928)</span></p>
-                    <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399 </strong>
+                </div>
+                <div class="carousel-item">
+                  <div class="px-2 pb-4 d-flex">
+                    <div class="card border-0">
+                      <img class="card-img-top" src="images/dev nirmal-Carasoul-Img-4.jpg" alt="Card image cap">
+                      <div class="card-body p-0">
+                        <strong class="card-title card-title-Font">Python : Master Programming and Development with
+                          15...</strong>
+                        <p class="card-text mb-0 teacherName-Font">Dev Nirwal</p>
+                        <p class="fourColor mb-0">4.3 <i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                            (13,252)</span></p>
+                        <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>2,299 </strong>
+                      </div>
+                    </div>
+                    <div class="card border-0 ms-3">
+                      <img class="card-img-top mt-1" src="images/Jose Portilla-Carasoul-Img-5.jpg" alt="Card image cap">
+                      <div class="card-body p-0">
+                        <strong class="card-title card-title-Font">Python for Data Science and Machine Learning
+                          Bootcamp</strong>
+                        <p class="card-text mb-0 teacherName-Font">Jose Portilla</p>
+                        <p class="fourColor mb-0">4.6 <i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                            (130,928)</span></p>
+                        <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399 </strong>
+                      </div>
+                    </div>
+                    <div class="card border-0 mx-3">
+                      <img class="card-img-top" src="images/Ed Yoda-Carasoul-Img-6.jpg" alt="Card image cap">
+                      <div class="card-body p-0">
+                        <strong class="card-title card-title-Font">Python Programming - From Basics to Advanced
+                          level...</strong>
+                        <p class="card-text mb-0 teacherName-Font">EdYoda Digital University,Dipesh...</p>
+                        <p class="fourColor mb-0">4.2 <i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                            (6,687)</span></p>
+                        <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>1,999 </strong>
+                      </div>
+                    </div>
+                    <div class="card border-0 card4-img4-height">
+                      <img class="card-img-top" src="images/Tim Buchalka-Carasoul-Img-7.jpg" alt="Card image cap">
+                      <div class="card-body p-0">
+                        <div class=""><strong class="card-title card-title-Font">Learn Python Programming
+                            Masterclass</strong></div>
+                        <p class="card-text mb-0 teacherName-Font">Tim Buchalka,Jean-Paul Roberts, T...</p>
+                        <p class="fourColor mb-0">4.6 <i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                            (98,578)</span></p>
+                        <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399 </strong>
+                      </div>
+                    </div>
+                    <div class="card border-0 ms-3">
+                      <img class="card-img-top h-50" src="images/Yasin Marko-Carasoul-Img-8.jpg" alt="Card image cap">
+                      <div class="card-body p-0">
+                        <strong class="card-title card-title-Font">Python for begineers-Learn all the basics of
+                          ...</strong>
+                        <p class="card-text mb-0 teacherName-Font">Yassin Marco</p>
+                        <p class="fourColor mb-0">4.3 <i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                            (8,665)</span></p>
+                        <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>1,999 </strong>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="card border-0 mx-3">
-                  <img class="card-img-top" src="images/Ed Yoda-Carasoul-Img-6.jpg" alt="Card image cap">
-                  <div class="card-body p-0">
-                    <strong class="card-title card-title-Font">Python Programming - From Basics to Advanced level...</strong>
-                    <p class="card-text mb-0 teacherName-Font">EdYoda Digital University,Dipesh...</p>
-                    <p class="fourColor mb-0">4.2 <i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
-                        (6,687)</span></p>
-                    <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>1,999 </strong>
-                  </div>
-                </div>
-                <div class="card border-0 card4-img4-height">
-                  <img class="card-img-top" src="images/Tim Buchalka-Carasoul-Img-7.jpg" alt="Card image cap">
-                  <div class="card-body p-0">
-                    <div class=""><strong class="card-title card-title-Font">Learn Python Programming Masterclass</strong></div>
-                    <p class="card-text mb-0 teacherName-Font">Tim Buchalka,Jean-Paul Roberts, T...</p>
-                    <p class="fourColor mb-0">4.6 <i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
-                        (98,578)</span></p>
-                    <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399 </strong>
-                </div>
-                </div>
-                <div class="card border-0 ms-3">
-                  <img class="card-img-top h-50" src="images/Yasin Marko-Carasoul-Img-8.jpg" alt="Card image cap">
-                  <div class="card-body p-0">
-                    <strong class="card-title card-title-Font">Python for begineers-Learn all the basics of ...</strong>
-                    <p class="card-text mb-0 teacherName-Font">Yassin Marco</p>
-                    <p class="fourColor mb-0">4.3 <i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
-                        (8,665)</span></p>
-                    <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>1,999 </strong>
-                    
+                <div class="carousel-item">
+                  <div class="px-2 pb-4 d-flex">
+                    <div class="card border-0">
+                      <img class="card-img-top" src="images/jose portilla.jpg" alt="Card image cap">
+                      <div class="card-body p-0">
+                        <strong class="card-title card-title-Font">The Complete Python Bootcamp From Zero to Hero
+                          ...</strong>
+                        <p class="card-text mb-0 teacherName-Font">Jose Portilla</p>
+                        <p class="fourColor mb-0">4.6 <i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                            (463,517)</span></p>
+                        <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
+                        <del class="text-muted ps-1"><i
+                            class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
+                      </div>
+                    </div>
+                    <div class="card border-0 ms-3">
+                      <img class="card-img-top card-img-height" src="images/AI Swiegart-Carasoul-Img-1.jpg"
+                        alt="Card image cap">
+                      <div class="card-body p-0">
+                        <strong class="card-title card-title-Font">Automate the Boring Stuff with Python
+                          Programming</strong>
+                        <p class="card-text mb-0 teacherName-Font">AI Sweigart</p>
+                        <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                            (107,354)</span></p>
+                        <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
+                        <del class="text-muted ps-1"><i
+                            class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
+                      </div>
+                    </div>
+                    <div class="card border-0 mx-3">
+                      <img class="card-img-top" src="images/Kiril Eremenko-Carasoul-Img-2.jpg" alt="Card image cap">
+                      <div class="card-body p-0">
+                        <strong class="card-title card-title-Font">Machine Learning A-Z™: AI, Python & R + ChatGPT
+                          Bonus...</strong>
+                        <p class="card-text mb-0 teacherName-Font">Kirill Eremenko,Hadelin de Pontev..</p>
+                        <p class="fourColor mb-0">4.5 <i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                            (169,450)</span></p>
+                        <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
+                        <del class="text-muted ps-1"><i
+                            class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
+                        <p class="bestSeller border ps-2 mt-2">BestSeller</p>
+                      </div>
+                    </div>
+                    <div class="card border-0">
+                      <img class="card-img-top h-50" src="images/dr.angela yu-Carasoul-Img-3.jpg" alt="Card image cap">
+                      <div class="card-body p-0">
+                        <strong class="card-title card-title-Font">100 Days of Code: The Complete Python Pro...</strong>
+                        <p class="card-text mb-0 teacherName-Font">Dr.Angela Yu</p>
+                        <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                            (199,888)</span></p>
+                        <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
+                        <del class="text-muted ps-1"><i
+                            class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
+                        <p class="bestSeller border ps-2 mt-2">BestSeller</p>
+                      </div>
+                    </div>
+                    <div class="card border-0 ms-3">
+                      <img class="card-img-top" src="images/dev nirmal-Carasoul-Img-4.jpg" alt="Card image cap">
+                      <div class="card-body p-0">
+                        <strong class="card-title card-title-Font">Python : Master Programming and Development with
+                          15...</strong>
+                        <p class="card-text mb-0 teacherName-Font">Dev Nirwal</p>
+                        <p class="fourColor mb-0">4.3 <i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star orangecolor"></i><i
+                            class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
+                            (13,242)</span></p>
+                        <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>389 </strong>
+                        <del class="text-muted ps-1"><i
+                            class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>2,299</del>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-              </div>
-              <div class="carousel-item">
-                <div class="px-2 pb-4 d-flex">
-                 <div class="card border-0">
-                  <img class="card-img-top" src="images/jose portilla.jpg" alt="Card image cap">
-                  <div class="card-body p-0">
-                    <strong class="card-title card-title-Font">The Complete Python Bootcamp From Zero to Hero
-                      ...</strong>
-                    <p class="card-text mb-0 teacherName-Font">Jose Portilla</p>
-                    <p class="fourColor mb-0">4.6 <i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
-                        (463,517)</span></p>
-                    <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
-                    <del class="text-muted ps-1"><i
-                        class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
-                  </div>
-                 </div>
-                <div class="card border-0 ms-3">
-                  <img class="card-img-top card-img-height" src="images/AI Swiegart-Carasoul-Img-1.jpg"
-                    alt="Card image cap">
-                  <div class="card-body p-0">
-                    <strong class="card-title card-title-Font">Automate the Boring Stuff with Python
-                      Programming</strong>
-                    <p class="card-text mb-0 teacherName-Font">AI Sweigart</p>
-                    <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
-                        (107,354)</span></p>
-                    <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
-                    <del class="text-muted ps-1"><i
-                        class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
-                  </div>
-                </div>
-                <div class="card border-0 mx-3">
-                  <img class="card-img-top" src="images/Kiril Eremenko-Carasoul-Img-2.jpg" alt="Card image cap">
-                  <div class="card-body p-0">
-                    <strong class="card-title card-title-Font">Machine Learning A-Z™: AI, Python & R + ChatGPT
-                      Bonus...</strong>
-                    <p class="card-text mb-0 teacherName-Font">Kirill Eremenko,Hadelin de Pontev..</p>
-                    <p class="fourColor mb-0">4.5 <i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
-                        (169,450)</span></p>
-                    <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
-                    <del class="text-muted ps-1"><i
-                        class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
-                    <p class="bestSeller border ps-2 mt-2">BestSeller</p>
-                  </div>
-                </div>
-                <div class="card border-0">
-                  <img class="card-img-top h-50" src="images/dr.angela yu-Carasoul-Img-3.jpg" alt="Card image cap">
-                  <div class="card-body p-0">
-                    <strong class="card-title card-title-Font">100 Days of Code: The Complete Python Pro...</strong>
-                    <p class="card-text mb-0 teacherName-Font">Dr.Angela Yu</p>
-                    <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
-                        (199,888)</span></p>
-                    <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>399 </strong>
-                    <del class="text-muted ps-1"><i
-                        class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
-                    <p class="bestSeller border ps-2 mt-2">BestSeller</p>
-
-                  </div>
-                </div>
-                <div class="card border-0 ms-3">
-                  <img class="card-img-top" src="images/dev nirmal-Carasoul-Img-4.jpg" alt="Card image cap">
-                  <div class="card-body p-0">
-                    <strong class="card-title card-title-Font">Python : Master Programming and Development with
-                      15...</strong>
-                    <p class="card-text mb-0 teacherName-Font">Dev Nirwal</p>
-                    <p class="fourColor mb-0">4.3 <i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star orangecolor"></i><i
-                        class="fa-solid fa-star-half-stroke orangecolor"></i><span class="text-muted spanFw">
-                        (13,242)</span></p>
-                    <strong><i class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>389 </strong>
-                    <del class="text-muted ps-1"><i
-                        class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>2,299</del>
-                  </div>
-                </div>
-              </div>
-              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark rounded-5 carousal-1-previous-Button p-4 d-none"
+                  aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                data-bs-slide="next">
+                <span class="carousel-control bg-dark carousal-1-Next-Button rounded-5 px-3 py-2" aria-hidden="true"><i
+                    class="fa-solid fa-angle-right" style="color: #eaecf0;"></i></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon bg-dark rounded-5 carousal-1-previous-Button p-4 d-none" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control bg-dark carousal-1-Next-Button rounded-5 px-3 py-2" aria-hidden="true"><i class="fa-solid fa-angle-right" style="color: #eaecf0;"></i></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
         </div>
       </div>
-     </div>
     </section>
     <!-- How learners like you are achieving their goals -->
     <div class="bg-light mt-5 px-5 pt-5 pb-2">
@@ -422,7 +516,6 @@
                         <div class="card">
                           <i class="fa-solid fa-quote-left ps-3 pt-4"></i>
                           <div class="card-body">
-
                             <p class="card-text">I am proud to say that after a few months of taking this course...
                               <strong>I passed my exam and am now an AWS Certified Cloud Practitioner!</strong>This
                               content was exactly what the CCP exam covered.
@@ -440,7 +533,6 @@
                                 2022</strong>
                             </div>
                           </div>
-
                         </div>
                       </div>
                       <div class="col-md mb-3">
@@ -538,12 +630,16 @@
                     </div>
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon bg-black rounded-5 mb-5 d-none carousal-2-previous-Button" aria-hidden="true"></span>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon bg-black rounded-5 mb-5 d-none carousal-2-previous-Button"
+                    aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
-                  <span class="carousel-control bg-black rounded-5 mb-5 px-3 py-2 carousal-2-Next-Button" aria-hidden="true"><i class="fa-solid fa-angle-right" style="color: #eaecf0;"></i></span>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"
+                  data-bs-slide="next">
+                  <span class="carousel-control bg-black rounded-5 mb-5 px-3 py-2 carousal-2-Next-Button"
+                    aria-hidden="true"><i class="fa-solid fa-angle-right" style="color: #eaecf0;"></i></span>
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
@@ -559,7 +655,7 @@
         <div id="carouselExample3" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
-               <div class="d-flex mx-5">
+              <div class="d-flex mx-5">
                 <div class="card border-0">
                   <img class="card-img-top h-50" src="images/C2-Img1.jpg" alt="Card image cap">
                   <div class="card-body p-0 pt-1">
@@ -613,7 +709,8 @@
                 <div class="card border-0 mx-3">
                   <img class="card-img-top h-50" src="images/C2-Img4.jpg" alt="Card image cap">
                   <div class="card-body p-0 pt-1">
-                    <strong class="card-title card-title-Font">[NEW]Ultimate AWS Certified Cloud Practitioner...</strong>
+                    <strong class="card-title card-title-Font">[NEW]Ultimate AWS Certified Cloud
+                      Practitioner...</strong>
                     <p class="card-text mb-0 teacherName-Font">Stephane Maarek | AWS certified Clou...</p>
                     <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
                         class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
@@ -624,7 +721,6 @@
                     <del class="text-muted ps-1"><i
                         class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
                     <p class="bestSeller border ps-2 mt-2">BestSeller</p>
-  
                   </div>
                 </div>
                 <div class="card border-0">
@@ -647,7 +743,7 @@
               </div>
             </div>
             <div class="carousel-item">
-               <div class="d-flex mx-5">
+              <div class="d-flex mx-5">
                 <div class="card border-0">
                   <img class="card-img-top h-50" src="images/C2-Img1.jpg" alt="Card image cap">
                   <div class="card-body p-0 pt-1">
@@ -701,7 +797,8 @@
                 <div class="card border-0 mx-3">
                   <img class="card-img-top h-50" src="images/C2-Img4.jpg" alt="Card image cap">
                   <div class="card-body p-0 pt-1">
-                    <strong class="card-title card-title-Font">[NEW]Ultimate AWS Certified Cloud Practitioner...</strong>
+                    <strong class="card-title card-title-Font">[NEW]Ultimate AWS Certified Cloud
+                      Practitioner...</strong>
                     <p class="card-text mb-0 teacherName-Font">Stephane Maarek | AWS certified Clou...</p>
                     <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
                         class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
@@ -712,7 +809,6 @@
                     <del class="text-muted ps-1"><i
                         class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
                     <p class="bestSeller border ps-2 mt-2">BestSeller</p>
-  
                   </div>
                 </div>
                 <div class="card border-0">
@@ -735,7 +831,7 @@
               </div>
             </div>
             <div class="carousel-item">
-               <div class="d-flex mx-5">
+              <div class="d-flex mx-5">
                 <div class="card border-0">
                   <img class="card-img-top h-50" src="images/C2-Img1.jpg" alt="Card image cap">
                   <div class="card-body p-0 pt-1">
@@ -789,7 +885,8 @@
                 <div class="card border-0 mx-3">
                   <img class="card-img-top h-50" src="images/C2-Img4.jpg" alt="Card image cap">
                   <div class="card-body p-0 pt-1">
-                    <strong class="card-title card-title-Font">[NEW]Ultimate AWS Certified Cloud Practitioner...</strong>
+                    <strong class="card-title card-title-Font">[NEW]Ultimate AWS Certified Cloud
+                      Practitioner...</strong>
                     <p class="card-text mb-0 teacherName-Font">Stephane Maarek | AWS certified Clou...</p>
                     <p class="fourColor mb-0">4.7 <i class="fa-solid fa-star orangecolor"></i><i
                         class="fa-solid fa-star orangecolor"></i><i class="fa-solid fa-star orangecolor"></i><i
@@ -800,7 +897,6 @@
                     <del class="text-muted ps-1"><i
                         class="fa-sharp fa-solid fa-indian-rupee-sign rupiesIcon"></i>3,399</del>
                     <p class="bestSeller border ps-2 mt-2">BestSeller</p>
-  
                   </div>
                 </div>
                 <div class="card border-0">
@@ -824,11 +920,13 @@
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon bg-black rounded-5 p-4 carousal-3-previous-Button d-none" aria-hidden="true"></span>
+            <span class="carousel-control-prev-icon bg-black rounded-5 p-4 carousal-3-previous-Button d-none"
+              aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
           <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
-            <span class="carousel-control bg-dark carousal-3-Next-Button rounded-5 px-3 py-2" aria-hidden="true"><i class="fa-solid fa-angle-right" style="color: #eaecf0;"></i></span>
+            <span class="carousel-control bg-dark carousal-3-Next-Button rounded-5 px-3 py-2" aria-hidden="true"><i
+                class="fa-solid fa-angle-right" style="color: #eaecf0;"></i></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
@@ -842,27 +940,27 @@
           <div class="col-3"><img src="images/Top-category-img1.jpg" alt="" class="bg-light" id="imgHover">
             <p class="pt-2"><strong>Design</strong></p>
           </div>
-          <div class="col-3"><img src="images/Top-category-Img2.jpg" alt="" class="bg-light"  id="imgHover">
+          <div class="col-3"><img src="images/Top-category-Img2.jpg" alt="" class="bg-light" id="imgHover">
             <p class="pt-2"><strong>Development</strong></p>
           </div>
-          <div class="col-3"><img src="images/Top-category-Img-3.jpg" alt="" class="bg-light"  id="imgHover">
+          <div class="col-3"><img src="images/Top-category-Img-3.jpg" alt="" class="bg-light" id="imgHover">
             <p class="pt-2"><strong>Marketing</strong></p>
           </div>
-          <div class="col-3"><img src="images/Top-category-Img-4.jpg" alt="" class="bg-light"  id="imgHover">
+          <div class="col-3"><img src="images/Top-category-Img-4.jpg" alt="" class="bg-light" id="imgHover">
             <p class="pt-2"><strong>IT and Software</strong></p>
           </div>
         </div>
         <div class="row d-flex justify-content-between my-5">
-          <div class="col-3"><img src="images/Top-category-Img5.jpg" alt="" class="bg-light"  id="imgHover">
+          <div class="col-3"><img src="images/Top-category-Img5.jpg" alt="" class="bg-light" id="imgHover">
             <p class="pt-2"><strong>Personal Development</strong></p>
           </div>
-          <div class="col-3"><img src="images/Top-category-Img6.jpg" alt="" class="bg-light"  id="imgHover">
+          <div class="col-3"><img src="images/Top-category-Img6.jpg" alt="" class="bg-light" id="imgHover">
             <p class="pt-2"><strong>Business</strong></p>
           </div>
-          <div class="col-3"><img src="images/Top-category-img7.jpg" alt="" class="bg-light"  id="imgHover">
+          <div class="col-3"><img src="images/Top-category-img7.jpg" alt="" class="bg-light" id="imgHover">
             <p class="pt-2"><strong>Photography</strong></p>
           </div>
-          <div class="col-3"><img src="images/Top-category-Img8.jpg" alt="" class="bg-light"  id="imgHover">
+          <div class="col-3"><img src="images/Top-category-Img8.jpg" alt="" class="bg-light" id="imgHover">
             <p class="pt-2"><strong>Music</strong></p>
           </div>
         </div>
@@ -964,10 +1062,12 @@
                 <div class="border carousal-box-border bg-white mt-5 pb-3">
                   <div class="row">
                     <div class="col-7"><i class="fa-solid fa-quote-left ps-4 pt-4"></i>
-                      <p class="carasoul-height ps-4 mb-5">With Udemy Business<strong>employees were able to marry the two
+                      <p class="carasoul-height ps-4 mb-5">With Udemy Business<strong>employees were able to marry the
+                          two
                           together, technology and consultant soft skills.</strong>We're thankful that once they got in
                         and
-                        took their key IT courses on AWS, Azure, Google Cloud, Big Data, and DevOps that they efficiently
+                        took their key IT courses on AWS, Azure, Google Cloud, Big Data, and DevOps that they
+                        efficiently
                         moved over to Consulting courses to help drive their career forward.</p>
                       <u class="Icon-Cover ps-4"><strong>Read full story</strong></u>
                     </div>
@@ -1002,7 +1102,6 @@
                       <div>
                         <h5 class="ps-5 mt-4"><strong class="">Ismaeel Ameen</strong></h5>
                         <p class="carousal-box-p ps-4 text-muted">Head of Data Engineering
-  
                           <span class="ms-2">Development and Data Management</span>
                         </p>
                         <p class="ms-5 ps-4 mb-5">Robert Walters</p>
@@ -1018,7 +1117,8 @@
                   <div class="row">
                     <div class="col-7"><i class="fa-solid fa-quote-left ps-4 pt-4"></i>
                       <p class="carasoul-height ps-4 mb-5">Udemy has been a great platform to stay competitive in the
-                        digital transformation of the workplace by offering<strong>fresh, relevant, personalized on-demand
+                        digital transformation of the workplace by offering<strong>fresh, relevant, personalized
+                          on-demand
                           learning content</strong>powered by a dynamic content marketplace.</p>
                       <u class="Icon-Cover ps-4"><strong>Read full story</strong></u>
                     </div>
@@ -1035,7 +1135,6 @@
                 </div>
               </div>
             </div>
-  
           </div>
           <button class="carousel-control-prev carousal-Previous-Button d-none" type="button"
             data-bs-target="#carouselExample4" data-bs-slide="prev">
@@ -1044,7 +1143,8 @@
           </button>
           <button class="carousel-control-next carousal-Next-Button" type="button" data-bs-target="#carouselExample4"
             data-bs-slide="next">
-            <span class="carousel-control bg-dark carousal-1-Next-Button rounded-5 px-4 py-3" aria-hidden="true"><i class="fa-solid fa-angle-right" style="color: #eaecf0;"></i></span>
+            <span class="carousel-control bg-dark carousal-1-Next-Button rounded-5 px-4 py-3" aria-hidden="true"><i
+                class="fa-solid fa-angle-right" style="color: #eaecf0;"></i></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
@@ -1093,13 +1193,11 @@
         <div class="col-6">
           <div class="row">
             <div class="col-4 anchor-Hover">
-
               <a href="" class="text-white text-decoration-none">Udemy Business</a>
               <a href="" class="d-block text-decoration-none text-white py-2">Teach on Udemy</a>
               <a href="" class="d-block text-decoration-none text-white">Get the app</a>
               <a href="" class="d-block text-decoration-none text-white py-2">About us</a>
               <a href="" class="d-block text-decoration-none text-white">Contact us</a>
-
             </div>
             <div class="col-4 anchor-Hover">
               <a href="" class="text-white text-decoration-none">Careers</a>
